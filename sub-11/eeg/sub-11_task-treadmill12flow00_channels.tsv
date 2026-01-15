@@ -1,0 +1,264 @@
+name	type	units	description
+Fp1	EEG	uV	
+AFp1	EEG	uV	
+AFz	EEG	uV	
+AF3	EEG	uV	
+AF7	EEG	uV	
+AFF5h	EEG	uV	
+AFF1h	EEG	uV	
+F1	EEG	uV	
+F3	EEG	uV	
+F5	EEG	uV	
+F7	EEG	uV	
+F9	EEG	uV	
+FFT9h	EEG	uV	
+FFT7h	EEG	uV	
+FFC5h	EEG	uV	
+FFC3h	EEG	uV	
+FFC1h	EEG	uV	
+FCz	EEG	uV	
+FC1	EEG	uV	
+FC3	EEG	uV	
+FC5	EEG	uV	
+FT7	EEG	uV	
+FT9	EEG	uV	
+FTT9h	EEG	uV	
+FTT7h	EEG	uV	
+FCC5h	EEG	uV	
+FCC3h	EEG	uV	
+FCC1h	EEG	uV	
+C1	EEG	uV	
+C3	EEG	uV	
+C5	EEG	uV	
+T7	EEG	uV	
+TTP7h	EEG	uV	
+CCP5h	EEG	uV	
+CCP3h	EEG	uV	
+CCP1h	EEG	uV	
+CP1	EEG	uV	
+CP3	EEG	uV	
+CP5	EEG	uV	
+TP7	EEG	uV	
+LISCM	EMG	uV	repurposed scalp electrodes as neck EMG
+TPP9h	EEG	uV	
+TPP7h	EEG	uV	
+CPP5h	EEG	uV	
+CPP3h	EEG	uV	
+CPP1h	EEG	uV	
+P1	EEG	uV	
+P3	EEG	uV	
+P5	EEG	uV	
+P7	EEG	uV	
+PPO5h	EEG	uV	
+PPO1h	EEG	uV	
+POz	EEG	uV	
+PO3	EEG	uV	
+PO7	EEG	uV	
+PPO9h	EEG	uV	
+LSSCM	EMG	uV	repurposed scalp electrodes as neck EMG
+LSTrap	EMG	uV	repurposed scalp electrodes as neck EMG
+POO9h	EEG	uV	
+O1	EEG	uV	
+POO1	EEG	uV	
+LITrap	EMG	uV	repurposed scalp electrodes as neck EMG
+OI1h	EEG	uV	
+Iz	EEG	uV	
+CGY-x	MISC	g	BrainVision amplifier accelerometer
+CGY-y	MISC	g	BrainVision amplifier accelerometer
+CGY-z	MISC	g	BrainVision amplifier accelerometer
+Cz	EEG	uV	
+C2	EEG	uV	
+C4	EEG	uV	
+C6	EEG	uV	
+T8	EEG	uV	
+FTT10h	EEG	uV	
+FTT8h	EEG	uV	
+FCC6h	EEG	uV	
+FCC4h	EEG	uV	
+FCC2h	EEG	uV	
+FC2	EEG	uV	
+FC4	EEG	uV	
+FC6	EEG	uV	
+FT8	EEG	uV	
+FT10	EEG	uV	
+FFT10h	EEG	uV	
+FFT8h	EEG	uV	
+FFC6h	EEG	uV	
+FFC4h	EEG	uV	
+FFC2h	EEG	uV	
+Fz	EEG	uV	
+F2	EEG	uV	
+F4	EEG	uV	
+F6	EEG	uV	
+F8	EEG	uV	
+F10	EEG	uV	
+AFF6h	EEG	uV	
+AFF2h	EEG	uV	
+AF4	EEG	uV	
+AF8	EEG	uV	
+Fp2	EEG	uV	
+AFp2	EEG	uV	
+Oz	EEG	uV	
+OI2h	EEG	uV	
+RITrap	EMG	uV	repurposed scalp electrodes as neck EMG
+RISCM	EMG	uV	repurposed scalp electrodes as neck EMG
+POO10h	EEG	uV	
+O2	EEG	uV	
+POO2	EEG	uV	
+PO4	EEG	uV	
+PO8	EEG	uV	
+PPO10h	EEG	uV	
+RSSCM	EMG	uV	repurposed scalp electrodes as neck EMG
+PPO6h	EEG	uV	
+PPO2h	EEG	uV	
+Pz	EEG	uV	
+P2	EEG	uV	
+P4	EEG	uV	
+P6	EEG	uV	
+P8	EEG	uV	
+TPP10h	EEG	uV	
+TPP8h	EEG	uV	
+CPP6h	EEG	uV	
+CPP4h	EEG	uV	
+CPP2h	EEG	uV	
+CP2	EEG	uV	
+CP4	EEG	uV	
+CP6	EEG	uV	
+TP8	EEG	uV	
+RSTrap	EMG	uV	repurposed scalp electrodes as neck EMG
+TTP8h	EEG	uV	
+CCP6h	EEG	uV	
+CCP4h	EEG	uV	
+CCP2h	EEG	uV	
+CWR-x	MISC	g	BrainVision amplifier accelerometer
+CWR-y	MISC	g	BrainVision amplifier accelerometer
+CWR-z	MISC	g	BrainVision amplifier accelerometer
+N-Fp1	MISC	uV	noise-layer electrode
+N-AFp1	MISC	uV	noise-layer electrode
+N-AFz	MISC	uV	noise-layer electrode
+N-AF3	MISC	uV	noise-layer electrode
+N-AF7	MISC	uV	noise-layer electrode
+N-AFF5h	MISC	uV	noise-layer electrode
+N-AFF1h	MISC	uV	noise-layer electrode
+N-F1	MISC	uV	noise-layer electrode
+N-F3	MISC	uV	noise-layer electrode
+N-F5	MISC	uV	noise-layer electrode
+N-F7	MISC	uV	noise-layer electrode
+N-FFT7h	MISC	uV	noise-layer electrode
+N-FFC5h	MISC	uV	noise-layer electrode
+N-FFC3h	MISC	uV	noise-layer electrode
+N-FFC1h	MISC	uV	noise-layer electrode
+N-FCz	MISC	uV	noise-layer electrode
+N-FC1	MISC	uV	noise-layer electrode
+N-FC3	MISC	uV	noise-layer electrode
+N-FC5	MISC	uV	noise-layer electrode
+N-FT7	MISC	uV	noise-layer electrode
+N-FTT7h	MISC	uV	noise-layer electrode
+N-FCC5h	MISC	uV	noise-layer electrode
+N-FCC3h	MISC	uV	noise-layer electrode
+N-FCC1h	MISC	uV	noise-layer electrode
+N-C1	MISC	uV	noise-layer electrode
+N-C3	MISC	uV	noise-layer electrode
+N-C5	MISC	uV	noise-layer electrode
+N-TTP7h	MISC	uV	noise-layer electrode
+N-CCP5h	MISC	uV	noise-layer electrode
+N-CCP3h	MISC	uV	noise-layer electrode
+N-CCP1h	MISC	uV	noise-layer electrode
+N-CP1	MISC	uV	noise-layer electrode
+N-CP3	MISC	uV	noise-layer electrode
+N-CP5	MISC	uV	noise-layer electrode
+N-TP7	MISC	uV	noise-layer electrode
+N-TPP9h	MISC	uV	noise-layer electrode
+N-TPP7h	MISC	uV	noise-layer electrode
+N-CPP5h	MISC	uV	noise-layer electrode
+N-CPP3h	MISC	uV	noise-layer electrode
+N-CPP1h	MISC	uV	noise-layer electrode
+N-P1	MISC	uV	noise-layer electrode
+N-P3	MISC	uV	noise-layer electrode
+N-P5	MISC	uV	noise-layer electrode
+N-P7	MISC	uV	noise-layer electrode
+N-PPO5h	MISC	uV	noise-layer electrode
+N-PPO1h	MISC	uV	noise-layer electrode
+N-POz	MISC	uV	noise-layer electrode
+N-PO3	MISC	uV	noise-layer electrode
+N-PO7	MISC	uV	noise-layer electrode
+N-PPO9h	MISC	uV	noise-layer electrode
+N-POO9h	MISC	uV	noise-layer electrode
+N-O1	MISC	uV	noise-layer electrode
+N-POO1	MISC	uV	noise-layer electrode
+N-OI1h	MISC	uV	noise-layer electrode
+N-Iz	MISC	uV	noise-layer electrode
+NGY-x	MISC	g	BrainVision amplifier accelerometer
+NGY-y	MISC	g	BrainVision amplifier accelerometer
+NGY-z	MISC	g	BrainVision amplifier accelerometer
+N-Cz	MISC	uV	noise-layer electrode
+N-C2	MISC	uV	noise-layer electrode
+N-C4	MISC	uV	noise-layer electrode
+N-C6	MISC	uV	noise-layer electrode
+N-FCC6h	MISC	uV	noise-layer electrode
+N-FCC4h	MISC	uV	noise-layer electrode
+N-FCC2h	MISC	uV	noise-layer electrode
+N-FC2	MISC	uV	noise-layer electrode
+N-FC4	MISC	uV	noise-layer electrode
+N-FC6	MISC	uV	noise-layer electrode
+N-FFT8h	MISC	uV	noise-layer electrode
+N-FFC6h	MISC	uV	noise-layer electrode
+N-FFC4h	MISC	uV	noise-layer electrode
+N-FFC2h	MISC	uV	noise-layer electrode
+N-Fz	MISC	uV	noise-layer electrode
+N-F2	MISC	uV	noise-layer electrode
+N-F4	MISC	uV	noise-layer electrode
+N-F6	MISC	uV	noise-layer electrode
+N-F8	MISC	uV	noise-layer electrode
+N-AFF6h	MISC	uV	noise-layer electrode
+N-AFF2h	MISC	uV	noise-layer electrode
+N-AF4	MISC	uV	noise-layer electrode
+N-AF8	MISC	uV	noise-layer electrode
+N-Fp2	MISC	uV	noise-layer electrode
+N-AFp2	MISC	uV	noise-layer electrode
+N-Oz	MISC	uV	noise-layer electrode
+N-OI2h	MISC	uV	noise-layer electrode
+N-POO10h	MISC	uV	noise-layer electrode
+N-O2	MISC	uV	noise-layer electrode
+N-POO2	MISC	uV	noise-layer electrode
+N-PO4	MISC	uV	noise-layer electrode
+N-PO8	MISC	uV	noise-layer electrode
+N-PPO10h	MISC	uV	noise-layer electrode
+N-PPO6h	MISC	uV	noise-layer electrode
+N-PPO2h	MISC	uV	noise-layer electrode
+N-Pz	MISC	uV	noise-layer electrode
+N-P2	MISC	uV	noise-layer electrode
+N-P4	MISC	uV	noise-layer electrode
+N-P6	MISC	uV	noise-layer electrode
+N-P8	MISC	uV	noise-layer electrode
+N-TPP10h	MISC	uV	noise-layer electrode
+N-TPP8h	MISC	uV	noise-layer electrode
+N-CPP6h	MISC	uV	noise-layer electrode
+N-CPP4h	MISC	uV	noise-layer electrode
+N-CPP2h	MISC	uV	noise-layer electrode
+N-CP2	MISC	uV	noise-layer electrode
+N-CP4	MISC	uV	noise-layer electrode
+N-CP6	MISC	uV	noise-layer electrode
+N-TP8	MISC	uV	noise-layer electrode
+N-TTP8h	MISC	uV	noise-layer electrode
+N-CCP6h	MISC	uV	noise-layer electrode
+N-CCP4h	MISC	uV	noise-layer electrode
+N-CCP2h	MISC	uV	noise-layer electrode
+NWR-x	MISC	g	BrainVision amplifier accelerometer
+NWR-y	MISC	g	BrainVision amplifier accelerometer
+NWR-z	MISC	g	BrainVision amplifier accelerometer
+GRF_L	MISC	N	loadsol GRF
+GRF_R	MISC	N	loadsol GRF
+Back_acc_x	MISC	m/s^2	Opal back IMU accelerometer
+Back_acc_y	MISC	m/s^2	Opal back IMU accelerometer
+Back_acc_z	MISC	m/s^2	Opal back IMU accelerometer
+Back_gyro_x	MISC	rad/s	Opal back IMU gyroscope
+Back_gyro_y	MISC	rad/s	Opal back IMU gyroscope
+Back_gyro_z	MISC	rad/s	Opal back IMU gyroscope
+Back_mag_x	MISC	uT	Opal back IMU magnometer
+Back_mag_y	MISC	uT	Opal back IMU magnometer
+Back_mag_z	MISC	uT	Opal back IMU magnometer
+Back_ori_s	MISC	quaternion	Opal back IMU orientation
+Back_ori_x	MISC	quaternion	Opal back IMU orientation
+Back_ori_y	MISC	quaternion	Opal back IMU orientation
+Back_ori_z	MISC	quaternion	Opal back IMU orientation
