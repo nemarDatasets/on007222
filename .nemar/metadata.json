@@ -1,36 +1,87 @@
 {
   "version": "2.0",
-  "dataset_id": "on007222",
-  "source": "openneuro",
-  "source_id": "ds007222",
+  "pipeline_stage": "validated",
   "title": "Visual Occlusions with Treadmill Walking Speeds EEG",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Jonel Morris": {},
     "Kenneth Cruz": {},
     "Raydeep Kainth": {},
     "Daniel Ferris": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007222.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007222",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007222",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007222",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.10.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "The National Institutes of Health (R01NS104772)"
+      "funder_name": "National Institutes of Health",
+      "award_number": "R01NS104772"
     }
   ],
-  "acknowledgements": "We thank HNL lab members for help with data collection: Ryland Swearinger, Crosman Cruz, Gabriel Veliz, Sarah Scott, Wilson Huang, Braden Denny, Drew Johnson, Caleb Leimer, Abigail Pope, Alexus Nesbit, and Leela Zhou for extended assistance with data collection. We thank Chang Lui and Jacob Salminen for help with scripts for data preprocessing and analysis. We thank members of the HNL lab for feedback and intellectual support to improve methods of data analysis."
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "This dataset comprises high-density EEG recordings from 15 healthy young adults during treadmill walking at multiple speeds (0.0, 0.4, 0.8, 1.2, 1.6 m/s) with intermittent visual occlusions induced by liquid crystal lens goggles. The study investigates neurophysiological responses to visual processing disruption during gait by measuring electrocortical alpha synchronization. Concurrent recordings include EMG, ground reaction forces, and inertial measurement data to characterize the sensorimotor context of visual processing during locomotion.",
+  "methods_description": "Fifteen healthy adults (ages 18-29) participated in randomized walking speed conditions lasting 3 minutes each, with visual occlusion events occurring every 8-10 seconds for 1.5 seconds. EEG was recorded from 120 scalp electrodes using 8 Brain Vision Amplifiers, supplemented by 110 noise electrodes, 8 EMG electrodes (bilateral sternocleidomastoid and trapezius), ground reaction forces from Loadsol insoles, and a 9-axis IMU on the lower back. Participants wore a safety harness and liquid crystal goggles while viewing a stationary projected visual scene. All systems were synchronized and breaks were provided between conditions.",
+  "keywords": [
+    {
+      "term": "EEG",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Gait",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005684"
+    },
+    {
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
+    },
+    {
+      "term": "alpha oscillations"
+    },
+    {
+      "term": "treadmill walking"
+    },
+    {
+      "term": "sensorimotor integration"
+    },
+    {
+      "term": "electroencephalography"
+    }
+  ],
+  "source_hash": "bf5c87966b7f02d3015c24122ccc9e3511a8edcacfeb8d5701bf576f0033a9f6"
 }
