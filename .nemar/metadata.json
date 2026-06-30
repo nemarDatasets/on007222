@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Visual Occlusions with Treadmill Walking Speeds EEG",
-  "description": "This dataset comprises high-density EEG recordings from 15 healthy young adults during treadmill walking at multiple speeds (0.0–1.6 m/s) with intermittent visual occlusions induced by liquid crystal lens goggles. The study investigates neurophysiological responses to visual processing disruptions during gait by measuring electrocortical alpha synchronization in response to visual occlusion events. Multimodal recordings include 120 scalp EEG electrodes, 110 noise electrodes, 8 EMG channels, ground reaction forces, and inertial measurement unit data.",
-  "methods_description": "Participants performed 3-minute walking trials at five speeds (0.0, 0.4, 0.8, 1.2, 1.6 m/s) on a treadmill while viewing a static visual display through liquid crystal goggles that alternated between transparent and opaque states every 8–10 seconds for 1.5 seconds. EEG was recorded using 8 Brain Vision Amplifiers with 120 scalp electrodes. Additional sensors included mechanically coupled noise electrodes, EMG from neck and shoulder muscles, Loadsol insole sensors for gait events, and an APDM Opal IMU on the lower back. Walking speed order was randomized, with breaks offered between conditions.",
+  "description": "This dataset comprises high-density EEG recordings from 15 healthy young adults during treadmill walking at multiple speeds (0.0–1.6 m/s) with intermittent visual occlusions induced by liquid crystal lens goggles. The study investigates neurophysiological responses to visual processing disruptions during gait by measuring electrocortical alpha synchronization. Concurrent recordings include EMG, ground reaction forces, and inertial measurement unit data to characterize the sensorimotor context of visual processing during locomotion. NOTE: This dataset represents a subset of a larger protocol containing 13 additional conditions. Some participants have incomplete or missing Loadsol insole sensor data (sub-05, sub-06, sub-07) and IMU data (sub-02, sub-04, sub-06, sub-12). One participant (sub-01) is missing part of the noise sensor array.",
+  "methods_description": "Participants performed 3-minute walking trials at five speeds (0.0, 0.4, 0.8, 1.2, 1.6 m/s) on a treadmill while viewing a static visual display through liquid crystal goggles that occluded vision for 1.5 seconds every 8–10 seconds. EEG was recorded from 120 scalp electrodes and 110 noise electrodes using 8 Brain Vision Amplifiers. Additional sensors included 8 EMG electrodes (bilateral sternocleidomastoid and trapezius), Loadsol insole sensors for gait events, and an APDM Opal IMU on the lower back. Walking speed order was randomized, with breaks offered between conditions. Participants were young adults (18–29 years) with normal or corrected vision and no history of musculoskeletal or neurological disorders.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -29,19 +29,27 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
     },
     {
-      "term": "alpha oscillations"
+      "term": "Locomotion",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008124"
     },
     {
       "term": "treadmill walking"
     },
     {
+      "term": "alpha oscillations"
+    },
+    {
+      "term": "sensorimotor integration"
+    },
+    {
       "term": "visual occlusion"
     },
     {
-      "term": "motor control"
+      "term": "Electrocortical alpha synchronization"
     },
     {
-      "term": "multimodal recording"
+      "term": "Treadmill"
     }
   ],
   "related_identifiers": [
