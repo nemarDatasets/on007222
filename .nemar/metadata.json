@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "Visual Occlusions with Treadmill Walking Speeds EEG",
+  "description": "This dataset comprises high-density EEG recordings from 15 healthy young adults during treadmill walking at multiple speeds (0.0–1.6 m/s) with intermittent visual occlusions induced by liquid crystal lens goggles. The study investigates neurophysiological responses to visual processing disruptions during gait by measuring electrocortical alpha synchronization in response to visual occlusion events. Multimodal recordings include 120 scalp EEG electrodes, 110 noise electrodes, 8 EMG channels, ground reaction forces, and inertial measurement unit data.",
+  "methods_description": "Participants performed 3-minute walking trials at five speeds (0.0, 0.4, 0.8, 1.2, 1.6 m/s) on a treadmill while viewing a static visual display through liquid crystal goggles that alternated between transparent and opaque states every 8–10 seconds for 1.5 seconds. EEG was recorded using 8 Brain Vision Amplifiers with 120 scalp electrodes. Additional sensors included mechanically coupled noise electrodes, EMG from neck and shoulder muscles, Loadsol insole sensors for gait events, and an APDM Opal IMU on the lower back. Walking speed order was randomized, with breaks offered between conditions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,50 +12,6 @@
     "Raydeep Kainth": {},
     "Daniel Ferris": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds007222.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on007222",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/on007222",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.18112/openneuro.ds007222",
-      "identifier_type": "DOI",
-      "relation_type": "IsVersionOf"
-    }
-  ],
-  "funding_references": [
-    {
-      "funder_name": "National Institutes of Health",
-      "award_number": "R01NS104772"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".edf",
-    ".json",
-    ".md",
-    ".tsv"
-  ],
-  "description": "This dataset comprises high-density EEG recordings from 15 healthy young adults during treadmill walking at multiple speeds (0.0, 0.4, 0.8, 1.2, 1.6 m/s) with intermittent visual occlusions induced by liquid crystal lens goggles. The study investigates neurophysiological responses to visual processing disruption during gait by measuring electrocortical alpha synchronization. Concurrent recordings include EMG, ground reaction forces, and inertial measurement data to characterize the sensorimotor context of visual processing during locomotion.",
-  "methods_description": "Fifteen healthy adults (ages 18-29) participated in randomized walking speed conditions lasting 3 minutes each, with visual occlusion events occurring every 8-10 seconds for 1.5 seconds. EEG was recorded from 120 scalp electrodes using 8 Brain Vision Amplifiers, supplemented by 110 noise electrodes, 8 EMG electrodes (bilateral sternocleidomastoid and trapezius), ground reaction forces from Loadsol insoles, and a 9-axis IMU on the lower back. Participants wore a safety harness and liquid crystal goggles while viewing a stationary projected visual scene. All systems were synchronized and breaks were provided between conditions.",
   "keywords": [
     {
       "term": "EEG",
@@ -77,11 +35,57 @@
       "term": "treadmill walking"
     },
     {
-      "term": "sensorimotor integration"
+      "term": "visual occlusion"
     },
     {
-      "term": "electroencephalography"
+      "term": "motor control"
+    },
+    {
+      "term": "multimodal recording"
     }
   ],
-  "source_hash": "bf5c87966b7f02d3015c24122ccc9e3511a8edcacfeb8d5701bf576f0033a9f6"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on007222",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007222",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007222",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007222.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Institutes of Health",
+      "award_number": "R01NS104772"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "3.6 GB (76 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "54c7894b9a59b2fb2de218bbe6e8d6dc613f96af1581f5e47dbc97226ae8dfbf"
 }
