@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Visual Occlusions with Treadmill Walking Speeds EEG",
-  "description": "This dataset comprises high-density EEG recordings from 15 healthy young adults during treadmill walking at multiple speeds (0.0–1.6 m/s) with intermittent visual occlusions induced by liquid crystal lens goggles. The study investigates neurophysiological responses to visual processing disruptions during gait by measuring electrocortical alpha synchronization. Concurrent recordings include EMG, ground reaction forces, and inertial measurement unit data to characterize the sensorimotor context of visual processing during locomotion. NOTE: This dataset represents a subset of a larger protocol containing 13 additional conditions. Some participants have incomplete or missing Loadsol insole sensor data (sub-05, sub-06, sub-07) and IMU data (sub-02, sub-04, sub-06, sub-12). One participant (sub-01) is missing part of the noise sensor array.",
-  "methods_description": "Participants performed 3-minute walking trials at five speeds (0.0, 0.4, 0.8, 1.2, 1.6 m/s) on a treadmill while viewing a static visual display through liquid crystal goggles that occluded vision for 1.5 seconds every 8–10 seconds. EEG was recorded from 120 scalp electrodes and 110 noise electrodes using 8 Brain Vision Amplifiers. Additional sensors included 8 EMG electrodes (bilateral sternocleidomastoid and trapezius), Loadsol insole sensors for gait events, and an APDM Opal IMU on the lower back. Walking speed order was randomized, with breaks offered between conditions. Participants were young adults (18–29 years) with normal or corrected vision and no history of musculoskeletal or neurological disorders.",
+  "description": "This dataset comprises EEG and biomechanical recordings from fifteen healthy young adults who walked on a treadmill at four different speeds (0.4, 0.8, 1.2, and 1.6 m/s) and while standing stationary, viewing a static projected scene through liquid crystal lenses that generated intermittent visual occlusions. The study aimed to characterize neurophysiological responses to visual occlusion during walking at varying gait speeds using 120-channel EEG, EMG, ground reaction force, and IMU data. This resource supports research into visual-motor integration and cortical dynamics of gait.",
+  "methods_description": "Data were collected using 8 Brain Vision Amplifiers with 120 EEG scalp electrodes, 110 noise electrodes, and 8 EMG electrodes (sternocleidomastoid and trapezius). Loadsol insoles recorded ground reaction forces and an APDM Opal IMU was placed on the lower back. Participants wore liquid crystal goggles generating intermittent visual occlusions while walking on a treadmill at 0.0, 0.4, 0.8, 1.2, and 1.6 m/s for 3-minute trials, with occlusion events occurring every 8-10 seconds lasting 1.5 seconds. Walking speed order was randomized across participants.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,42 +14,25 @@
   },
   "keywords": [
     {
-      "term": "EEG",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "EEG"
     },
     {
-      "term": "Gait",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005684"
-    },
-    {
-      "term": "Visual Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
-    },
-    {
-      "term": "Locomotion",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008124"
+      "term": "gait"
     },
     {
       "term": "treadmill walking"
     },
     {
-      "term": "alpha oscillations"
-    },
-    {
-      "term": "sensorimotor integration"
-    },
-    {
       "term": "visual occlusion"
     },
     {
-      "term": "Electrocortical alpha synchronization"
+      "term": "electromyography"
     },
     {
-      "term": "Treadmill"
+      "term": "human locomotion"
+    },
+    {
+      "term": "alpha synchronization"
     }
   ],
   "related_identifiers": [
